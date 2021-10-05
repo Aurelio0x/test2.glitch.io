@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(0, 240, 255);
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    margin-top: 4px;
+}
+
+
+.imagegallery{
+  display:flex;
+  width:100%;
+  padding:0;
+}
+
+.imagegallery figure{
+  display:block;
+}
+
+.imagegallery img {
+  width:100%;
+  object-fit:cover;
+}
+
+.imagegallery2 img{
+  width:100%;
+  object-fit:cover;
+}
+
+.imagegallery2{
+  width:50%;
+  padding:0;
+}
+
+header {
+  height:80vh;
+  text-align:center;
+  padding-top:80px;
+  color:aqua;
+  font-size:40px;
+background-image:url(https://blog.logitech.com/wp-content/uploads/2019/05/Screen-Shot-2019-03-15-at-7.54.34-AM.png);
+  background-size:cover;
+  background-position:top;
+  font-family:'Russo One'
+}
+section {
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    margin: 20px auto;
+    color: rgb(255, 255, 255);
+    font-size: 1.1em;
+  max-width:1000px;
+  font-family:'Russo One'
+}
+
+footer {
+  background-color: rgb(0, 0, 0);
+    height:50vh;
+  display:flex;
+  color:aqua;
+  flex-direction:column;
+  text-align:center;
+  padding:20px;
+  
+}
+
+figcaption {
+    font-size: 0.9em;
+    font-style: italic;
+    opacity: 0.4;
+}
+
+.section1 {
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    margin: 20px auto;
+    color: rgb(22, 22, 66);
+    font-size: 0.1em;
+  max-width:800px;
+}
